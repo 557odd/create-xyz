@@ -1,0 +1,70 @@
+[DEFINITION LAYER]  
+--------------------------------------------------------------------------------------  
+TRUTH    := A statement consistent with verifiable reality under a defined setting  
+LIE      := A statement inconsistent with reality OR intentionally deceptive  
+REALITY  := The observable or measurable state of the system/environment  
+SETTING  := The contextual frame (time, domain, assumptions, constraints)  
+  
+NOTE:  
+- Truth is not absolute without a setting  
+- Reality is not accessible without observation  
+- Lies may be structurally valid but contextually false  
+  
+
+📐 The Mathematical Blueprint
+
+To make this a bulletproof geometric puzzle, we can use exact coordinate geometry, vectors, and timestamps. The core mechanism uses a geometric intersection to prove that a physical obstruction blocks one observer's line of sight during a critical window of time.
+Below is the precise grid setup, the conflicting testimonies, and the mathematical proof the players must solve.
+
+🗺️ The Map Setup (Cartesian Grid)
+
+All entities exist on a standard \((x, y)\) coordinate plane:
+• The Target (The Artifact): Located at \((2, 4)\). It features a symbol that changes shape based on the hour.
+• The Obstruction (A Thick Wall): A straight security wall runs along the line segment from \((1, 2)\) to \((4, 2)\).
+text
+  y ▲
+  6 │          
+  5 │               [Observer B] (4,5)
+  4 │      [Target] (2,4)
+  3 │          
+  2 │    ✖============✖ [Wall: (1,2) to (4,2)]
+  1 │          
+  0 ┼───[Observer A] (1,0)─────────[Observer C] (5,0)──► x
+    0    1    2    3    4    5    6
+Use code with caution.
+
+📜 The Witness Statements
+
+The player receives three logs recorded at 15:00 (3:00 PM):
+• Observer A Log (at \(1, 0\)):
+	• Time: "At exactly 14:00, I looked due North-West toward the Target."
+	• Visual Clue: "The Target was displaying a Triangle symbol."
+• Observer B Log (at \(4, 5\)):
+	• Time: "At exactly 14:00, I looked South-West toward the Target."
+	• Visual Clue: "Observer A is mistaken. I saw the Target at that exact moment, and it was displaying a Square symbol."
+• Observer C Log (at \(5, 0\)):
+	• Time: "I monitored the area between 13:55 and 14:05."
+	• Visual Clue: "I had a clear line of sight to Observer A. At 14:00, Observer A was indeed looking at the Target. I also know for a fact that the Target was displaying a Triangle at 14:00, because the symbol only changes to a Square at 15:00."
+
+🔍 The Geometric Proof (How the Player Solves It)
+
+To find the liar, the player must determine which observer's line of sight is physically impossible due to the wall.
+
+1. Testing Observer A's Sightline
+
+• Line starts at \((1, 0)\) and goes to Target \((2, 4)\).
+• The equation of this line is: \(y = 4x - 4\).
+• Where it crosses the wall's horizontal plane (\(y = 2\)): \(2 = 4x - 4 \implies 6 = 4x \implies \mathbf{x = 1.5}\).
+• Since the wall exists between \(x = 1\) and \(x = 4\) at \(y = 2\), the intersection point \((1.5, 2)\) means Observer A's view is blocked by the wall. Observer A could not have seen the Triangle at 14:00.
+
+2. Testing Observer B's Sightline
+
+• Line starts at \((4, 5)\) and goes to Target \((2, 4)\).
+• The equation of this line is: \(y = 0.5x + 3\).
+• Where it crosses the wall's horizontal plane (\(y = 2\)): \(2 = 0.5x + 3 \implies -1 = 0.5x \implies \mathbf{x = -2}\).
+• Because \(x = -2\) falls completely outside the wall's physical boundaries (\(x = 1\) to \(4\)), Observer B has a totally clear line of sight.
+
+3. The Climax (Exposing the Liar)
+
+Observer B saw a Square, but Observer C's chronological data proves the Target was a Triangle at 14:00. If Observer A's view was blocked, Observer A must have been guessing or repeating old information—but Observer B is actively lying because they had a perfect view of a Triangle, yet fabricated seeing a Square to make Observer A look wrong.
+Would you like to add a cipher or a partial symbol puzzle to the visual clues (e.g., making the Triangle and Square parts of a larger hidden glyph), or should we refine the text and dialogue flavor for the logs?
